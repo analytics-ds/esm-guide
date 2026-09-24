@@ -11,6 +11,8 @@ cd "$(dirname "$0")"
 MSG="${1:-Mise a jour du site}"
 DEPOT="https://github.com/analytics-ds/esm-guide.git"
 
+command -v hugo >/dev/null || { echo "hugo n'est pas installe (brew install hugo)" >&2; exit 1; }
+
 echo "1/3  Construction du site"
 rm -rf public
 hugo --gc --minify
@@ -33,4 +35,4 @@ cd ..
 
 echo
 echo "Termine. GitHub Pages met une a deux minutes a servir la nouvelle version."
-echo "https://esm-guide.com/"
+echo "  $(grep -m1 '^baseURL' hugo.toml | cut -d'"' -f2)"
