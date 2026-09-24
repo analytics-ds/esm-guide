@@ -6,7 +6,7 @@ lastmod: "2026-09-22"
 description: "The SaaS versus self-hosting decision is not about the sticker price but about five cost lines and three constraints."
 categories: ["Tools and Comparisons"]
 tags: ["SaaS", "hosting", "ITSM platform", "total cost", "operations"]
-author: "thomas-durand"
+author: "claire-vasseur"
 image: "/images/blog/itsm-saas-ou-auto-heberge.webp"
 imageAlt: "Source code displayed on a computer screen"
 faq:

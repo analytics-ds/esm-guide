@@ -6,7 +6,7 @@ lastmod: "2026-08-28"
 description: "A miscalibrated support SLA turns against the team. A method for setting turnaround commitments you can keep."
 categories: ["Service Desk and Ticketing"]
 tags: ["SLA", "service desk", "support", "priority", "metrics"]
-author: "thomas-durand"
+author: "claire-vasseur"
 image: "/images/blog/definir-sla-support.webp"
 imageAlt: "Desk with a digital clock showing the time"
 faq:

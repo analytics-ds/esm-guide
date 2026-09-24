@@ -6,7 +6,7 @@ lastmod: "2026-09-09"
 description: "Agent, agentless, network discovery: three IT inventory methods, their limits and how to choose between them."
 categories: ["IT Asset Management"]
 tags: ["IT inventory", "ITAM", "asset management", "CMDB", "automation"]
-author: "thomas-durand"
+author: "claire-vasseur"
 image: "/images/blog/inventaire-informatique-automatise.webp"
 imageAlt: "Archive shelving filled with numbered binders"
 faq:

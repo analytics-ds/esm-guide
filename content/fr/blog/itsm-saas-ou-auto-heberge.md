@@ -6,7 +6,7 @@ lastmod: "2026-09-22"
 description: "Le choix entre SaaS et auto-hébergement ne se joue pas sur le prix affiché mais sur cinq postes de coût et trois contraintes."
 categories: ["Outils et comparatifs"]
 tags: ["SaaS", "hebergement", "plateforme ITSM", "cout total", "exploitation"]
-author: "thomas-durand"
+author: "claire-vasseur"
 image: "/images/blog/itsm-saas-ou-auto-heberge.webp"
 imageAlt: "Code source affiché sur un écran d'ordinateur"
 faq:

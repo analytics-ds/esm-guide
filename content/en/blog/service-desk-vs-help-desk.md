@@ -6,7 +6,7 @@ lastmod: "2026-08-26"
 description: "Service desk, help desk, service centre: three terms often confused. What each one actually covers."
 categories: ["Service Desk and Ticketing"]
 tags: ["service desk", "help desk", "support", "ITIL", "ticketing"]
-author: "thomas-durand"
+author: "claire-vasseur"
 image: "/images/blog/service-desk-help-desk-difference.webp"
 imageAlt: "Reception counter in a company lobby"
 faq:

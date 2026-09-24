@@ -6,7 +6,7 @@ lastmod: "2026-08-19"
 description: "The seven ITIL 4 guiding principles, what they cover and how to apply them without drowning in the framework."
 categories: ["ITSM and ITIL"]
 tags: ["ITIL", "ITSM", "best practices", "governance", "continual improvement"]
-author: "thomas-durand"
+author: "claire-vasseur"
 image: "/images/blog/itil-4-principes-directeurs.webp"
 imageAlt: "Hand writing notes with a pen in a notebook"
 faq:

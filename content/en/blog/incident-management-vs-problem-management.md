@@ -6,7 +6,7 @@ lastmod: "2026-08-21"
 description: "Incident and problem are not the same thing in ITSM. What the confusion costs and how to separate the two flows."
 categories: ["ITSM and ITIL"]
 tags: ["incident management", "ITIL", "ITSM", "service desk", "root cause"]
-author: "thomas-durand"
+author: "claire-vasseur"
 image: "/images/blog/gestion-incidents-gestion-problemes.webp"
 imageAlt: "Technician working on a network cable panel"
 faq:

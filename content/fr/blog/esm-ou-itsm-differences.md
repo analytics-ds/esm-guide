@@ -6,7 +6,7 @@ lastmod: "2026-08-14"
 description: "ESM et ITSM partagent les mêmes mécanismes mais pas le même périmètre. Ce qui change vraiment en pratique."
 categories: ["Fondamentaux ESM"]
 tags: ["ESM", "ITSM", "gestion des services", "processus", "gouvernance"]
-author: "thomas-durand"
+author: "claire-vasseur"
 image: "/images/blog/esm-ou-itsm-differences.webp"
 imageAlt: "Intérieur d'un immeuble de bureaux aux lignes épurées"
 faq:

@@ -6,7 +6,7 @@ lastmod: "2026-08-14"
 description: "ESM and ITSM share the same mechanics but not the same scope. What genuinely changes in practice."
 categories: ["ESM Fundamentals"]
 tags: ["ESM", "ITSM", "service management", "processes", "governance"]
-author: "thomas-durand"
+author: "claire-vasseur"
 image: "/images/blog/esm-ou-itsm-differences.webp"
 imageAlt: "Interior of an office building with clean lines"
 faq:

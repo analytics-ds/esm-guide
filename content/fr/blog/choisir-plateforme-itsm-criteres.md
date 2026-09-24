@@ -6,7 +6,7 @@ lastmod: "2026-09-16"
 description: "Six critères départagent réellement les plateformes ITSM. Les autres font perdre du temps en appel d'offres."
 categories: ["Outils et comparatifs"]
 tags: ["plateforme ITSM", "selection", "appel d'offres", "gestion de parc", "catalogue de services"]
-author: "thomas-durand"
+author: "claire-vasseur"
 image: "/images/blog/choisir-plateforme-itsm-criteres.webp"
 imageAlt: "Poste de travail avec écran, clavier et souris"
 faq:

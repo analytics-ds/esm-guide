@@ -6,7 +6,7 @@ lastmod: "2026-09-09"
 description: "Agent, sans agent, collecte réseau : trois méthodes d'inventaire informatique, leurs limites et le choix à faire."
 categories: ["Gestion de parc et actifs"]
 tags: ["inventaire informatique", "ITAM", "gestion de parc", "CMDB", "automatisation"]
-author: "thomas-durand"
+author: "claire-vasseur"
 image: "/images/blog/inventaire-informatique-automatise.webp"
 imageAlt: "Rayonnages d'archives remplis de classeurs numérotés"
 faq:

@@ -8,30 +8,30 @@
 # Le champ `topics` sert a la selection automatique de l'auteur dans /create-article-geo.
 # Le champ `expertise` alimente le schema.org Person -> knowsAbout.
 
-thomas-durand:
-  id: thomas-durand
-  name: Thomas Durand
+claire-vasseur:
+  id: claire-vasseur
+  name: Claire Vasseur
   type: person
   avatar: ""
   linkedinUrl: ""
   jobTitle:
-    fr: Rédacteur en chef, analyste ITSM et ESM
-    en: Editor-in-Chief, ITSM and ESM analyst
+    fr: Consultante en gestion des services
+    en: Service management consultant
   role:
-    fr: Rédacteur en chef, analyste ITSM et ESM
-    en: Editor-in-Chief, ITSM and ESM analyst
+    fr: Consultante en gestion des services
+    en: Service management consultant
   bio:
-    fr: "Thomas Durand est rédacteur en chef d'ESM Guide. Il suit depuis plus de dix ans les pratiques de gestion des services en entreprise et compare les plateformes ITSM et ESM du marché, des suites propriétaires aux solutions open source."
-    en: "Thomas Durand is Editor-in-Chief of ESM Guide. He has been covering enterprise service management practices for over ten years and benchmarks ITSM and ESM platforms, from proprietary suites to open source solutions."
+    fr: "Claire Vasseur accompagne des directions informatiques et des fonctions support dans la structuration de leurs services : catalogues, niveaux d'engagement, organisation du support et gestion de parc. Elle écrit sur ESM Guide pour rendre ces sujets lisibles en dehors du cercle des spécialistes."
+    en: "Claire Vasseur works with IT departments and support functions on structuring their services: catalogues, service levels, support organisation and asset management. She writes for ESM Guide to make these topics readable outside the circle of specialists."
   expertise:
     - Enterprise Service Management
     - ITSM
     - ITIL
     - Service desk
+    - Catalogue de services
+    - Niveaux de service
     - Gestion de parc informatique
-    - ITAM
     - CMDB
-    - Automatisation des processus
   topics:
     - esm
     - enterprise service management
@@ -47,11 +47,8 @@ thomas-durand:
     - cmdb
     - inventaire informatique
     - sla
-    - open source
-    - logiciel
-    - saas
-    - b2b
-    - informatique
+    - catalogue de services
+    - processus
     - dsi
 
 magalie-ergoz:

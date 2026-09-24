@@ -6,7 +6,7 @@ lastmod: "2026-08-28"
 description: "Un SLA de support mal calibré se retourne contre l'équipe. Méthode pour fixer des engagements de délai tenables."
 categories: ["Service desk et ticketing"]
 tags: ["SLA", "service desk", "support", "priorite", "indicateurs"]
-author: "thomas-durand"
+author: "claire-vasseur"
 image: "/images/blog/definir-sla-support.webp"
 imageAlt: "Bureau avec une horloge numérique affichant l'heure"
 faq:

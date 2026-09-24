@@ -6,7 +6,7 @@ lastmod: "2026-09-02"
 description: "Une CMDB n'a de valeur que si elle est à jour. Ce qu'elle doit contenir et comment l'alimenter sans la laisser dériver."
 categories: ["Gestion de parc et actifs"]
 tags: ["CMDB", "ITAM", "gestion de parc", "inventaire informatique", "ITIL"]
-author: "thomas-durand"
+author: "claire-vasseur"
 image: "/images/blog/cmdb-definition-alimentation.webp"
 imageAlt: "Câbles réseau RJ45 enroulés sur fond clair"
 faq:

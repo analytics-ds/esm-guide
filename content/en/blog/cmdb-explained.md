@@ -6,7 +6,7 @@ lastmod: "2026-09-02"
 description: "A CMDB is only worth anything if it is current. What it should contain and how to feed it without letting it drift."
 categories: ["IT Asset Management"]
 tags: ["CMDB", "ITAM", "asset management", "IT inventory", "ITIL"]
-author: "thomas-durand"
+author: "claire-vasseur"
 image: "/images/blog/cmdb-definition-alimentation.webp"
 imageAlt: "Coiled RJ45 network cables on a light background"
 faq:

@@ -6,7 +6,7 @@ lastmod: "2026-08-12"
 description: "L'Enterprise Service Management étend les pratiques ITSM à toute l'entreprise. Définition, périmètre et premiers pas concrets."
 categories: ["Fondamentaux ESM"]
 tags: ["ESM", "gestion des services", "processus", "catalogue de services", "DSI"]
-author: "thomas-durand"
+author: "claire-vasseur"
 image: "/images/blog/enterprise-service-management-definition.webp"
 imageAlt: "Réunion d'équipe autour d'une table de travail avec ordinateurs portables"
 faq:

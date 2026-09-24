@@ -6,7 +6,7 @@ lastmod: "2026-09-16"
 description: "Six criteria genuinely separate ITSM platforms. The rest waste time in a tender process."
 categories: ["Tools and Comparisons"]
 tags: ["ITSM platform", "selection", "tender", "asset management", "service catalogue"]
-author: "thomas-durand"
+author: "claire-vasseur"
 image: "/images/blog/choisir-plateforme-itsm-criteres.webp"
 imageAlt: "Workstation with monitor, keyboard and mouse"
 faq:

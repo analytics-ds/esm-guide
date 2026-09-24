@@ -6,7 +6,7 @@ lastmod: "2026-08-12"
 description: "Enterprise Service Management extends ITSM practices across the whole business. Definition, scope and first practical steps."
 categories: ["ESM Fundamentals"]
 tags: ["ESM", "service management", "processes", "service catalogue", "IT leadership"]
-author: "thomas-durand"
+author: "claire-vasseur"
 image: "/images/blog/enterprise-service-management-definition.webp"
 imageAlt: "Team meeting around a work table with laptops"
 faq:

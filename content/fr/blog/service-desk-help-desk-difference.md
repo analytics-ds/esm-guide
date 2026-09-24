@@ -6,7 +6,7 @@ lastmod: "2026-08-26"
 description: "Service desk, help desk, centre de services : trois termes souvent confondus. Ce que chacun recouvre réellement."
 categories: ["Service desk et ticketing"]
 tags: ["service desk", "help desk", "support", "ITIL", "ticketing"]
-author: "thomas-durand"
+author: "claire-vasseur"
 image: "/images/blog/service-desk-help-desk-difference.webp"
 imageAlt: "Comptoir d'accueil dans un hall d'entreprise"
 faq:

@@ -6,7 +6,7 @@ lastmod: "2026-08-19"
 description: "Les 7 principes directeurs d'ITIL 4, ce qu'ils recouvrent et comment les appliquer sans se noyer dans le référentiel."
 categories: ["ITSM et ITIL"]
 tags: ["ITIL", "ITSM", "bonnes pratiques", "gouvernance", "amelioration continue"]
-author: "thomas-durand"
+author: "claire-vasseur"
 image: "/images/blog/itil-4-principes-directeurs.webp"
 imageAlt: "Main écrivant des notes au stylo sur un carnet"
 faq:
