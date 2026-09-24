@@ -1,0 +1,143 @@
+# ESM Guide — configuration Hugo
+baseURL = "https://esm-guide.com/"
+title = "ESM Guide"
+theme = "esm-guide"
+
+defaultContentLanguage = "fr"
+defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
+enableEmoji = false
+summaryLength = 30
+
+[outputFormats]
+  [outputFormats.llms]
+    mediaType = "text/plain"
+    baseName = "llms"
+    isPlainText = true
+    notAlternative = true
+
+[outputs]
+  home = ["html", "rss", "llms"]
+
+[pagination]
+  pagerSize = 12
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+    ordered = false
+  [markup.highlight]
+    noClasses = false
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = true
+  [[related.indices]]
+    name = "categories"
+    weight = 100
+  [[related.indices]]
+    name = "tags"
+    weight = 80
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[params]
+  default_og_image = "/images/og-default.jpg"
+  logo = "/favicon.svg"
+  founding_year = "2026"
+  og_locale_alternate = "en_US"
+  expertise = ["Enterprise Service Management", "ITSM", "ITIL", "Service desk", "Gestion de parc informatique", "ITAM", "CMDB"]
+
+# ---------------------------------------------------------------- LANGUES
+
+[languages]
+  [languages.fr]
+    contentDir = "content/fr"
+    locale = "fr-FR"
+    label = "Français"
+    weight = 1
+    title = "ESM Guide"
+    [languages.fr.params]
+      description = "Le média indépendant de l'Enterprise Service Management : ITSM, service desk, gestion de parc et comparatifs d'outils."
+
+  [languages.en]
+    contentDir = "content/en"
+    locale = "en-US"
+    label = "English"
+    weight = 2
+    title = "ESM Guide"
+    [languages.en.params]
+      description = "The independent Enterprise Service Management media: ITSM, service desk, IT asset management and tool comparisons."
+
+# ---------------------------------------------------------------- MENUS FR
+
+[[languages.fr.menus.main]]
+  name = "Accueil"
+  url = "/"
+  weight = 1
+[[languages.fr.menus.main]]
+  name = "Fondamentaux ESM"
+  url = "/categories/fondamentaux-esm/"
+  weight = 2
+[[languages.fr.menus.main]]
+  name = "ITSM et ITIL"
+  url = "/categories/itsm-et-itil/"
+  weight = 3
+[[languages.fr.menus.main]]
+  name = "Service desk et ticketing"
+  url = "/categories/service-desk-et-ticketing/"
+  weight = 4
+[[languages.fr.menus.main]]
+  name = "Gestion de parc et actifs"
+  url = "/categories/gestion-de-parc-et-actifs/"
+  weight = 5
+[[languages.fr.menus.main]]
+  name = "Outils et comparatifs"
+  url = "/categories/outils-et-comparatifs/"
+  weight = 6
+[[languages.fr.menus.main]]
+  name = "Articles"
+  url = "/blog/"
+  weight = 99
+
+# ---------------------------------------------------------------- MENUS EN
+
+[[languages.en.menus.main]]
+  name = "Home"
+  url = "/en/"
+  weight = 1
+[[languages.en.menus.main]]
+  name = "ESM Fundamentals"
+  url = "/en/categories/esm-fundamentals/"
+  weight = 2
+[[languages.en.menus.main]]
+  name = "ITSM and ITIL"
+  url = "/en/categories/itsm-and-itil/"
+  weight = 3
+[[languages.en.menus.main]]
+  name = "Service Desk and Ticketing"
+  url = "/en/categories/service-desk-and-ticketing/"
+  weight = 4
+[[languages.en.menus.main]]
+  name = "IT Asset Management"
+  url = "/en/categories/it-asset-management/"
+  weight = 5
+[[languages.en.menus.main]]
+  name = "Tools and Comparisons"
+  url = "/en/categories/tools-and-comparisons/"
+  weight = 6
+[[languages.en.menus.main]]
+  name = "Articles"
+  url = "/en/blog/"
+  weight = 99

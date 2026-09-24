@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+<section class="error-page">
+    <div class="container">
+        <span class="error-code">404</span>
+        <h1>{{ i18n "error_title" }}</h1>
+        <p>{{ i18n "error_text" }}</p>
+        <div class="error-links">
+            <a href="{{ "/" | relLangURL }}" class="btn-primary">{{ i18n "back_home" }}</a>
+            <a href="{{ "blog/" | relLangURL }}" class="btn-outline">{{ i18n "see_articles" }}</a>
+        </div>
+    </div>
+</section>
+
+{{ end }}

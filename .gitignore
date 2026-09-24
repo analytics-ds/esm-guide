@@ -1,0 +1,14 @@
+# Build Hugo
+public/
+resources/
+.hugo_build.lock
+.DS_Store
+
+# Outillage interne : ne JAMAIS publier sur le repo public.
+# Ces fichiers decrivent la finalite du site et l'outillage datashake,
+# ils constitueraient une empreinte exploitable depuis GitHub.
+.claude/
+CLAUDE.md
+README.md
+MEMORY.md
+CREDITS-IMAGES.json

@@ -1,0 +1,120 @@
+{{ define "main" }}
+{{ $en := eq .Site.Language.Lang "en" }}
+{{ $posts := (where .Site.RegularPages "Section" "blog").ByDate.Reverse }}
+{{ $lead := "" }}{{ if gt (len $posts) 0 }}{{ $lead = index $posts 0 }}{{ end }}
+{{ $recents := first 3 $posts }}
+{{ $index := after 4 $posts }}
+
+<section class="hero">
+    <div class="container">
+        <div class="hero-frame">
+
+            <div class="hero-cell hero-cell-main">
+                <span class="hero-badge">{{ if $en }}Independent ESM media{{ else }}Le média indépendant de l'ESM{{ end }}</span>
+                <h1>{{ if $en }}<span class="hero-accent">ESM Guide</span>: service management, beyond the IT department{{ else }}<span class="hero-accent">Guide ESM</span>&nbsp;: la gestion des services, au-delà de l'informatique{{ end }}</h1>
+                <p class="hero-description">{{ .Site.Params.description }}</p>
+                <div class="hero-actions">
+                    <a href="{{ "blog/" | relLangURL }}" class="btn-primary">{{ i18n "explore_blog" }}</a>
+                </div>
+                <nav class="hero-topics" aria-label="{{ i18n "topics_kicker" }}">
+                    {{ range .Site.Taxonomies.categories }}<a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>{{ end }}
+                </nav>
+            </div>
+
+            <div class="hero-cell hero-cell-aside">
+                <div class="hero-claim">
+                    <p>{{ i18n "claim" }}</p>
+                </div>
+                <figure class="hero-feature">
+                    <img src="{{ "images/home-hero.webp" | relURL }}" alt="{{ i18n "hero_image_alt" }}" loading="eager" fetchpriority="high">
+                    <figcaption class="hero-feature-caption">{{ i18n "hero_image_claim" }}</figcaption>
+                </figure>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+{{ with $recents }}
+<section class="section">
+    <div class="container">
+        <div class="section-head">
+            <div>
+                <span class="section-kicker">{{ i18n "recent_kicker" }}</span>
+                <h2 class="section-title">{{ i18n "recent_title" }}</h2>
+            </div>
+            <a href="{{ "blog/" | relLangURL }}" class="section-link">{{ i18n "see_all" }} &rarr;</a>
+        </div>
+        <div class="paper-grid paper-grid-3">
+            {{ range . }}
+            <article class="paper-cell post-cell">
+                <a href="{{ .RelPermalink }}" class="post-media" tabindex="-1" aria-hidden="true">
+                    {{ with .Params.image }}<img src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}
+                </a>
+                <div class="post-body">
+                    <div class="card-meta">
+                        {{ with .Params.categories }}<span class="card-cat">{{ index . 0 }}</span>{{ end }}
+                        <span class="card-dot"></span>
+                        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_long" }}</time>
+                    </div>
+                    <h3 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                    <p class="post-excerpt">{{ .Description }}</p>
+                    <span class="post-more">{{ i18n "read_more" }} &rarr;</span>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+
+<section class="section section-alt">
+    <div class="container">
+        <div class="section-head">
+            <div>
+                <span class="section-kicker">{{ i18n "topics_kicker" }}</span>
+                <h2 class="section-title">{{ i18n "topics_title" }}</h2>
+            </div>
+        </div>
+        <div class="paper-grid paper-grid-5">
+            {{ range .Site.Taxonomies.categories }}
+            <a href="{{ .Page.RelPermalink }}" class="paper-cell topic-card"{{ with .Page.Params.image }} style="{{ printf "--card-image:url(%s)" (. | relURL) | safeCSS }}"{{ end }}>
+                <span class="topic-body">
+                    <span class="topic-name">{{ .Page.Title }}</span>
+                    <span class="topic-count">{{ i18n "article_count" .Count }}</span>
+                </span>
+            </a>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+{{ with $index }}
+<section class="section">
+    <div class="container">
+        <div class="section-head">
+            <div>
+                <span class="section-kicker">{{ i18n "index_kicker" }}</span>
+                <h2 class="section-title">{{ i18n "index_title" }}</h2>
+            </div>
+            <a href="{{ "blog/" | relLangURL }}" class="section-link">{{ i18n "see_all" }} &rarr;</a>
+        </div>
+        <ol class="index-list">
+            {{ range $i, $p := . }}
+            <li class="index-row">
+                <span class="index-num">{{ printf "%02d" (add $i 5) }}</span>
+                <span class="index-main">
+                    {{ with $p.Params.categories }}<span class="index-cat">{{ index . 0 }}</span>{{ end }}
+                    <span class="index-title"><a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a></span>
+                </span>
+                <span class="index-meta">
+                    <time datetime="{{ $p.Date.Format "2006-01-02" }}">{{ $p.Date | time.Format ":date_long" }}</time>
+                </span>
+            </li>
+            {{ end }}
+        </ol>
+    </div>
+</section>
+{{ end }}
+
+{{ end }}

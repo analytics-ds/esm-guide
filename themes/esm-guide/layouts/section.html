@@ -1,0 +1,41 @@
+{{ define "main" }}
+{{ $kicker := i18n "index_kicker" }}
+{{ if eq .Kind "term" }}{{ $kicker = i18n "topics_kicker" }}{{ end }}
+
+<header class="page-head">
+    <div class="container">
+        <span class="section-kicker">{{ $kicker }}</span>
+        <h1>{{ .Title }}</h1>
+        {{ with .Description }}<p class="page-lede">{{ . }}</p>{{ end }}
+        <span class="page-count">{{ i18n "article_count" (len .Pages) }}</span>
+    </div>
+</header>
+
+<section class="section">
+    <div class="container">
+        {{ with .Content }}<div class="prose container-narrow">{{ . }}</div>{{ end }}
+        <div class="paper-grid paper-grid-3">
+            {{ range .Pages.ByDate.Reverse }}
+            <article class="paper-cell post-cell">
+                <a href="{{ .RelPermalink }}" class="post-media" tabindex="-1" aria-hidden="true">
+                    {{ with .Params.image }}<img src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}
+                </a>
+                <div class="post-body">
+                    <div class="card-meta">
+                        {{ with .Params.categories }}<span class="card-cat">{{ index . 0 }}</span>{{ end }}
+                        <span class="card-dot"></span>
+                        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_long" }}</time>
+                        <span class="card-dot"></span>
+                        <span>{{ .ReadingTime }} {{ i18n "min_short" }}</span>
+                    </div>
+                    <h2 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+                    <p class="post-excerpt">{{ .Description }}</p>
+                    <span class="post-more">{{ i18n "read_more" }} &rarr;</span>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+{{ end }}

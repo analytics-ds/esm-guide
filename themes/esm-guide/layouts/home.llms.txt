@@ -1,0 +1,29 @@
+{{- $en := eq .Site.Language.Lang "en" -}}
+# {{ .Site.Title }}
+
+> {{ .Site.Params.description }}
+
+## {{ if $en }}About{{ else }}À propos{{ end }}
+
+{{ if $en -}}
+ESM Guide is an independent editorial site covering Enterprise Service Management: ITSM practices, the ITIL framework, service desk organisation, IT asset management and platform comparisons. Articles are factual, tool-agnostic and aimed at IT leaders and service managers.
+{{- else -}}
+ESM Guide est un site éditorial indépendant consacré à l'Enterprise Service Management : pratiques ITSM, référentiel ITIL, organisation du service desk, gestion de parc informatique et comparatifs de plateformes. Les contenus sont factuels, sans parti pris d'éditeur, et s'adressent aux DSI et aux responsables de services.
+{{- end }}
+
+## {{ if $en }}Categories{{ else }}Catégories{{ end }}
+{{ range .Site.Taxonomies.categories }}
+- [{{ .Page.Title }}]({{ .Page.Permalink }}) : {{ .Page.Description }}
+{{- end }}
+
+## Articles
+{{ range (where .Site.RegularPages "Section" "blog").ByDate.Reverse }}
+- [{{ .Title }}]({{ .Permalink }}) : {{ .Description }}
+{{- end }}
+
+## {{ if $en }}Technical information{{ else }}Informations techniques{{ end }}
+
+- {{ if $en }}Generator{{ else }}Générateur{{ end }} : Hugo
+- {{ if $en }}Languages{{ else }}Langues{{ end }} : fr, en
+- Sitemap : {{ "sitemap.xml" | absURL }}
+- RSS : {{ "index.xml" | absLangURL }}
