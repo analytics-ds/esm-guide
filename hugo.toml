@@ -1,8 +1,5 @@
 # ESM Guide — configuration Hugo
-# Provisoire : le site est servi sur l'URL GitHub en attendant que le domaine
-# esm-guide.com soit branche. Pour rebasculer : remettre https://esm-guide.com/,
-# recreer static/CNAME avec "esm-guide.com", puis redeployer.
-baseURL = "https://analytics-ds.github.io/esm-guide/"
+baseURL = "https://esm-guide.com/"
 title = "ESM Guide"
 theme = "esm-guide"
 

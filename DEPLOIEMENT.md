@@ -35,7 +35,7 @@ enregistrements A existants sur `@` :
 | A | @ | 185.199.109.153 |
 | A | @ | 185.199.110.153 |
 | A | @ | 185.199.111.153 |
-| CNAME | www | esm-guide.com |
+| CNAME | www | analytics-ds.github.io |
 
 **2. Une fois la propagation faite**, une seule commande :
 
