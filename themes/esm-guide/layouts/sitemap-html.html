@@ -15,7 +15,7 @@
                 <h2>{{ i18n "main_pages" }}</h2>
                 <ul class="sitemap-list">
                     {{ range .Site.Menus.main }}
-                    <li><a href="{{ strings.TrimPrefix "/" .URL | relURL }}">{{ .Name }}</a></li>
+                    <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
                     {{ end }}
                 </ul>
             </div>
