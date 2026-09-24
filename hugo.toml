@@ -70,7 +70,7 @@ summaryLength = 30
     locale = "fr-FR"
     label = "Français"
     weight = 1
-    title = "ESM Guide"
+    title = "Guide ESM"
     [languages.fr.params]
       description = "Le média indépendant de l'Enterprise Service Management : ITSM, service desk, gestion de parc et comparatifs d'outils."
 
