@@ -44,7 +44,7 @@ ITIL uses only the notion of service desk and defines it as the single point of 
 | Incident | Unplanned interruption | Cannot connect to email | Restore as fast as possible |
 | Service request | Request listed in the catalogue | Add a second monitor | Fulfil following a set procedure |
 
-This separation drives everything downstream. An incident is measured in time to restore, a request in time to deliver, and conflating the two makes the indicators unreadable. The same separation logic applies between incidents and problems, as covered in our article on [incident and problem management](/en/blog/incident-management-vs-problem-management/).
+This separation drives everything downstream. An incident is measured in time to restore, a request in time to deliver, and conflating the two makes the indicators unreadable. The same separation logic applies between incidents and problems, as covered in our article on [incident and problem management](/blog/incident-management-vs-problem-management/).
 
 ## The three support tiers
 
@@ -56,9 +56,9 @@ The efficiency of this pattern is decided at the first tier. Every documented pr
 
 ## What to tool first
 
-- A single intake channel, however many departments are involved, a principle at the heart of [Enterprise Service Management](/en/blog/what-is-enterprise-service-management/)
+- A single intake channel, however many departments are involved, a principle at the heart of [Enterprise Service Management](/blog/what-is-enterprise-service-management/)
 - Ticket categorisation that stays stable over time, without which no trend analysis is possible
-- Explicit turnaround commitments, covered in our article on [support SLAs](/en/blog/defining-support-slas/)
+- Explicit turnaround commitments, covered in our article on [support SLAs](/blog/defining-support-slas/)
 
 ## Frequently asked questions
 

@@ -57,7 +57,7 @@ It is precisely this detection of the unknown that justifies scanning, even in a
 2. Schedule a weekly network scan across all address ranges
 3. Reconcile both sources into a single repository, tagging the origin of every field
 
-Source tagging gates everything downstream: without it, feeding a [CMDB](/en/blog/cmdb-explained/) cleanly is impossible, as is knowing which value takes precedence. Inventory is only one brick of the setup, day-to-day use happening from the [service desk](/en/blog/service-desk-vs-help-desk/), and the choice of collection tool being often dictated by the [ITSM platform in place](/en/blog/choosing-an-itsm-platform/).
+Source tagging gates everything downstream: without it, feeding a [CMDB](/blog/cmdb-explained/) cleanly is impossible, as is knowing which value takes precedence. Inventory is only one brick of the setup, day-to-day use happening from the [service desk](/blog/service-desk-vs-help-desk/), and the choice of collection tool being often dictated by the [ITSM platform in place](/blog/choosing-an-itsm-platform/).
 
 ## Frequently asked questions
 

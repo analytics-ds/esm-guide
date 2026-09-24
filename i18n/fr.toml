@@ -28,7 +28,7 @@ breadcrumb_label = "Fil d'Ariane"
 nav_main_label = "Navigation principale"
 nav_mobile_label = "Navigation mobile"
 nav_articles_label = "Navigation articles"
-sitemap_url = "/plan-du-site/"
+sitemap_url = "plan-du-site/"
 
 lead_kicker = "À la une"
 lead_title = "Les dernières publications"

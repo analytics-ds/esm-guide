@@ -51,7 +51,7 @@ When both flows share a queue and a team, urgency always wins. Workarounds pile 
 - A workaround applied repeatedly by support teams
 - A visible trend in ticket statistics by category
 
-That last point assumes reliable ticket categorisation, which points straight back to the quality of [service desk](/en/blog/service-desk-vs-help-desk/) organisation and to the accuracy of inventory data, since root cause analysis without a [usable CMDB](/en/blog/cmdb-explained/) amounts to searching blind.
+That last point assumes reliable ticket categorisation, which points straight back to the quality of [service desk](/blog/service-desk-vs-help-desk/) organisation and to the accuracy of inventory data, since root cause analysis without a [usable CMDB](/blog/cmdb-explained/) amounts to searching blind.
 
 ## Putting the separation in place
 
@@ -59,7 +59,7 @@ That last point assumes reliable ticket categorisation, which points straight ba
 2. Ring-fence analysis time that incidents in progress cannot interrupt
 3. Document known errors systematically and expose them to the first line
 
-The third point produces the fastest effect: a documented, accessible workaround turns a second-line incident into an immediate first-line answer. It is also a direct application of the ITIL principle "optimise and automate", covered in our article on the [ITIL 4 guiding principles](/en/blog/itil-4-guiding-principles/).
+The third point produces the fastest effect: a documented, accessible workaround turns a second-line incident into an immediate first-line answer. It is also a direct application of the ITIL principle "optimise and automate", covered in our article on the [ITIL 4 guiding principles](/blog/itil-4-guiding-principles/).
 
 ## Frequently asked questions
 

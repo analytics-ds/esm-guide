@@ -45,7 +45,7 @@ A guiding principle is not executed, it is invoked. Faced with a design choice, 
 | Keep it simple and practical | Remove any step producing neither value nor information |
 | Optimise and automate | Optimise first, automate second, never the reverse |
 
-The last one deserves particular attention. Automating a badly designed process industrialises its defects, a point that applies equally to a ticket workflow and to an [automated IT inventory](/en/blog/automated-it-inventory/) collection.
+The last one deserves particular attention. Automating a badly designed process industrialises its defects, a point that applies equally to a ticket workflow and to an [automated IT inventory](/blog/automated-it-inventory/) collection.
 
 ## The three principles that suffice at the start
 
@@ -53,11 +53,11 @@ The last one deserves particular attention. Automating a badly designed process 
 2. **Keep it simple and practical**: limit the first catalogue to high-volume requests
 3. **Progress iteratively**: deliver a narrow scope, measure, then widen
 
-That progression matches the one recommended for an [ESM initiative](/en/blog/what-is-enterprise-service-management/), which is no coincidence: both aim to avoid the cathedral project.
+That progression matches the one recommended for an [ESM initiative](/blog/what-is-enterprise-service-management/), which is no coincidence: both aim to avoid the cathedral project.
 
 ## What ITIL does not say
 
-ITIL describes practices, it prescribes neither tool nor org chart. The framework is silent on team structure, on choosing between a [SaaS or self-hosted platform](/en/blog/itsm-saas-or-self-hosted/) and on sizing the support function. Those decisions depend on context, which is precisely what the principle "start where you are" is there to remind you.
+ITIL describes practices, it prescribes neither tool nor org chart. The framework is silent on team structure, on choosing between a [SaaS or self-hosted platform](/blog/itsm-saas-or-self-hosted/) and on sizing the support function. Those decisions depend on context, which is precisely what the principle "start where you are" is there to remind you.
 
 ## Frequently asked questions
 

@@ -52,7 +52,7 @@ Three elements separate a genuine ESM initiative from a software rollout:
 - Turnaround commitments owned by the department delivering the service, not imposed by the tool
 - Shared measurement, visible to requesters and delivery teams alike
 
-The rest is configuration. This is also why the [differences between ESM and ITSM](/en/blog/esm-vs-itsm-differences/) are organisational rather than technical.
+The rest is configuration. This is also why the [differences between ESM and ITSM](/blog/esm-vs-itsm-differences/) are organisational rather than technical.
 
 ## Where to start
 
@@ -60,7 +60,7 @@ The rest is configuration. This is also why the [differences between ESM and ITS
 2. Write its service catalogue, limited to the ten most frequent requests
 3. Open a single intake channel, before discussing automation at all
 
-Platform selection comes afterwards, once the scope has settled. The criteria are covered in our [ITSM platform selection grid](/en/blog/choosing-an-itsm-platform/), and first-line organisation in our article on the [service desk](/en/blog/service-desk-vs-help-desk/).
+Platform selection comes afterwards, once the scope has settled. The criteria are covered in our [ITSM platform selection grid](/blog/choosing-an-itsm-platform/), and first-line organisation in our article on the [service desk](/blog/service-desk-vs-help-desk/).
 
 ## Frequently asked questions
 

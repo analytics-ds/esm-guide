@@ -31,7 +31,7 @@ readingTime: true
 
 ### What ESM inherits directly from ITSM
 
-The distinction between incident and request, priority derived from urgency and impact, the self-service knowledge base, support tiers: all of it comes from IT and transfers without rewriting. Those foundations are covered in our article on the [fundamentals of Enterprise Service Management](/en/blog/what-is-enterprise-service-management/).
+The distinction between incident and request, priority derived from urgency and impact, the self-service knowledge base, support tiers: all of it comes from IT and transfers without rewriting. Those foundations are covered in our article on the [fundamentals of Enterprise Service Management](/blog/what-is-enterprise-service-management/).
 
 ## What genuinely changes
 
@@ -50,11 +50,11 @@ The difficulty shifts. In ITSM, the obstacle is industrialising a high volume of
 - **Multiple assignment queues**: an HR request must never land in the IT queue
 - **Partitioned access rights**: a sick note or an expense claim has no business being readable by a technician
 
-That last point is the most commonly underestimated. A platform unable to hide ticket content from unrelated teams rules itself out of HR and legal use cases from the start. The topic belongs in the selection grid, alongside the criteria listed in our [ITSM platform selection grid](/en/blog/choosing-an-itsm-platform/).
+That last point is the most commonly underestimated. A platform unable to hide ticket content from unrelated teams rules itself out of HR and legal use cases from the start. The topic belongs in the selection grid, alongside the criteria listed in our [ITSM platform selection grid](/blog/choosing-an-itsm-platform/).
 
 ## In what order to proceed
 
-1. Stabilise ITSM practice, including the [distinction between incident and problem management](/en/blog/incident-management-vs-problem-management/)
+1. Stabilise ITSM practice, including the [distinction between incident and problem management](/blog/incident-management-vs-problem-management/)
 2. Extend to a single pilot department, with its own catalogue
 3. Generalise once the rights model has been proven
 

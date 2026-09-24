@@ -1,6 +1,6 @@
 <header class="site-header">
     <div class="header-container">
-        <a href="{{ "/" | relLangURL }}" class="site-logo" aria-label="{{ .Site.Title }}">
+        <a href="{{ .Site.Home.RelPermalink }}" class="site-logo" aria-label="{{ .Site.Title }}">
             <svg class="site-logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
                 <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
                 <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
@@ -12,7 +12,7 @@
 
         <nav class="site-nav" role="navigation" aria-label="{{ i18n "nav_main_label" }}">
             {{ range .Site.Menus.main }}
-            <a href="{{ .URL | relURL }}" class="nav-link{{ if $.IsMenuCurrent "main" . }} active{{ end }}">
+            <a href="{{ strings.TrimPrefix "/" .URL | relURL }}" class="nav-link{{ if $.IsMenuCurrent "main" . }} active{{ end }}">
                 {{ .Name }}
             </a>
             {{ end }}
@@ -46,7 +46,7 @@
 
     <nav class="nav-mobile" aria-label="{{ i18n "nav_mobile_label" }}">
         {{ range .Site.Menus.main }}
-        <a href="{{ .URL | relURL }}" class="nav-link-mobile">{{ .Name }}</a>
+        <a href="{{ strings.TrimPrefix "/" .URL | relURL }}" class="nav-link-mobile">{{ .Name }}</a>
         {{ end }}
         {{ if gt (len hugo.Sites) 1 }}
         <div class="lang-switcher-mobile">

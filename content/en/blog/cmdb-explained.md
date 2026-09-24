@@ -41,7 +41,7 @@ A **CMDB**, for Configuration Management Database, records the configuration ite
 | CMDB | Configuration items and their dependencies | What breaks if I touch this |
 | Asset management | Financial lifecycle, contracts, licences, depreciation | What does it cost and until when |
 
-The three overlap and often live in the same tool, which keeps the confusion alive. The practical starting point remains the inventory, fed by the collection methods covered in our article on [automated IT inventory](/en/blog/automated-it-inventory/).
+The three overlap and often live in the same tool, which keeps the confusion alive. The practical starting point remains the inventory, fed by the collection methods covered in our article on [automated IT inventory](/blog/automated-it-inventory/).
 
 ## Why CMDBs drift
 
@@ -58,7 +58,7 @@ That last point is decisive. Without source tagging, a manual correction is over
 2. **Automate discovery** of technical items, and reserve manual entry for business relationships
 3. **Wire updates into change management**, so no approved change leaves the database behind
 
-The third point assumes an existing change management practice, therefore an ITSM foundation already in place. It is also what makes the CMDB usable in [problem management](/en/blog/incident-management-vs-problem-management/), where root cause analysis relies on dependencies to trace a symptom back to its origin.
+The third point assumes an existing change management practice, therefore an ITSM foundation already in place. It is also what makes the CMDB usable in [problem management](/blog/incident-management-vs-problem-management/), where root cause analysis relies on dependencies to trace a symptom back to its origin.
 
 ## Frequently asked questions
 

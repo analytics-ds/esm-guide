@@ -31,7 +31,7 @@ Most tenders start with a feature grid sent to vendors. That is the reverse of t
 
 ### The real scope
 
-Three questions frame it: how many departments will eventually be served, is asset management in scope, and who will operate the platform three years from now. The answers determine half the criteria below. Scoping is covered in our article on the [fundamentals of Enterprise Service Management](/en/blog/what-is-enterprise-service-management/).
+Three questions frame it: how many departments will eventually be served, is asset management in scope, and who will operate the platform three years from now. The answers determine half the criteria below. Scoping is covered in our article on the [fundamentals of Enterprise Service Management](/blog/what-is-enterprise-service-management/).
 
 ## The six criteria that decide
 
@@ -44,7 +44,7 @@ Three questions frame it: how many departments will eventually be served, is ass
 | Data migration | Import format, history, attachments | Lost history resets every indicator to zero |
 | Hosting | SaaS, managed or on premises | Determines who carries upgrades and backup |
 
-The fourth is the one most often discovered too late. A platform unable to hide ticket content from unrelated teams will never serve human resources, whatever its other qualities. The topic is developed in our comparison of [ESM and ITSM](/en/blog/esm-vs-itsm-differences/).
+The fourth is the one most often discovered too late. A platform unable to hide ticket content from unrelated teams will never serve human resources, whatever its other qualities. The topic is developed in our comparison of [ESM and ITSM](/blog/esm-vs-itsm-differences/).
 
 ## The criteria that decide nothing
 
@@ -58,7 +58,7 @@ The fourth is the one most often discovered too late. A platform unable to hide 
 2. **Have each vendor replay those ten cases** in their own tool, unrehearsed
 3. **Cost it over five years**, licences, hosting, integration and operations included
 
-The third step holds surprises in both directions. A platform billed per technician can stay cheaper than an apparently free solution that is poorly tooled, and the reverse is just as true. The same full-cost reasoning applies to [IT inventory](/en/blog/automated-it-inventory/), whose collection is often billed separately.
+The third step holds surprises in both directions. A platform billed per technician can stay cheaper than an apparently free solution that is poorly tooled, and the reverse is just as true. The same full-cost reasoning applies to [IT inventory](/blog/automated-it-inventory/), whose collection is often billed separately.
 
 ## Frequently asked questions
 

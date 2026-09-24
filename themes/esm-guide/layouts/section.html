@@ -18,7 +18,7 @@
             {{ range .Pages.ByDate.Reverse }}
             <article class="paper-cell post-cell">
                 <a href="{{ .RelPermalink }}" class="post-media" tabindex="-1" aria-hidden="true">
-                    {{ with .Params.image }}<img src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}
+                    {{ with .Params.image }}<img src="{{ strings.TrimPrefix "/" . | relURL }}" alt="" loading="lazy">{{ end }}
                 </a>
                 <div class="post-body">
                     <div class="card-meta">

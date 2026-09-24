@@ -45,7 +45,7 @@ Impact measures how many people or how critical the affected service is. Urgency
 
 ## Two clocks, not one
 
-- **Response time** runs from ticket creation to qualification by an agent. It measures [service desk](/en/blog/service-desk-vs-help-desk/) reactivity
+- **Response time** runs from ticket creation to qualification by an agent. It measures [service desk](/blog/service-desk-vs-help-desk/) reactivity
 - **Restoration time** runs until the service is back. It measures the capacity of the whole support chain
 
 Tracking only the second makes it impossible to know where time is lost. A ten-minute response followed by a three-day resolution is not the same problem as a two-day response.
@@ -56,7 +56,7 @@ Tracking only the second makes it impossible to know where time is lost. A ten-m
 2. Set the commitment slightly above that median, to leave headroom
 3. Tighten in stages, in step with gains on first-line resolution rate
 
-This incremental progression matches one of the [ITIL 4 guiding principles](/en/blog/itil-4-guiding-principles/). It assumes a reliable ticket history, therefore stable categorisation, and it benefits from the findings of [problem management](/en/blog/incident-management-vs-problem-management/) to cut volume at source.
+This incremental progression matches one of the [ITIL 4 guiding principles](/blog/itil-4-guiding-principles/). It assumes a reliable ticket history, therefore stable categorisation, and it benefits from the findings of [problem management](/blog/incident-management-vs-problem-management/) to cut volume at source.
 
 ## Clock rules to write down explicitly
 

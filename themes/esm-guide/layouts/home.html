@@ -49,7 +49,7 @@
             {{ range . }}
             <article class="paper-cell post-cell">
                 <a href="{{ .RelPermalink }}" class="post-media" tabindex="-1" aria-hidden="true">
-                    {{ with .Params.image }}<img src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}
+                    {{ with .Params.image }}<img src="{{ strings.TrimPrefix "/" . | relURL }}" alt="" loading="lazy">{{ end }}
                 </a>
                 <div class="post-body">
                     <div class="card-meta">
@@ -78,7 +78,7 @@
         </div>
         <div class="paper-grid paper-grid-5">
             {{ range .Site.Taxonomies.categories }}
-            <a href="{{ .Page.RelPermalink }}" class="paper-cell topic-card"{{ with .Page.Params.image }} style="{{ printf "--card-image:url(%s)" (. | relURL) | safeCSS }}"{{ end }}>
+            <a href="{{ .Page.RelPermalink }}" class="paper-cell topic-card"{{ with .Page.Params.image }} style="{{ printf "--card-image:url(%s)" (strings.TrimPrefix "/" . | relURL) | safeCSS }}"{{ end }}>
                 <span class="topic-body">
                     <span class="topic-name">{{ .Page.Title }}</span>
                     <span class="topic-count">{{ i18n "article_count" .Count }}</span>

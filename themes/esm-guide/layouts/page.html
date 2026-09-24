@@ -12,7 +12,7 @@
         <nav class="breadcrumb" aria-label="{{ i18n "breadcrumb_label" }}">
             <ol class="breadcrumb-list">
                 <li class="breadcrumb-item">
-                    <a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a>
+                    <a href="{{ .Site.Home.RelPermalink }}">{{ i18n "home" }}</a>
                     <svg class="breadcrumb-sep" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 4 10 8 6 12" /></svg>
                 </li>
                 <li class="breadcrumb-item">
@@ -55,7 +55,7 @@
                     {{ with $authorData }}
                     <div class="author-info">
                         {{ with .avatar }}
-                        <img src="{{ . | relURL }}" alt="{{ $authorData.name }}" class="author-avatar" width="48" height="48" loading="lazy">
+                        <img src="{{ strings.TrimPrefix "/" . | relURL }}" alt="{{ $authorData.name }}" class="author-avatar" width="48" height="48" loading="lazy">
                         {{ else }}
                         <div class="author-avatar author-avatar-placeholder" aria-hidden="true">{{ slicestr .name 0 1 }}</div>
                         {{ end }}
@@ -84,7 +84,7 @@
 
             {{ with .Params.image }}
             <div class="article-hero-image">
-                <img src="{{ . | relURL }}" alt="{{ with $.Params.imageAlt }}{{ . }}{{ else }}{{ $.Title }}{{ end }}" width="600" height="400" loading="eager" fetchpriority="high">
+                <img src="{{ strings.TrimPrefix "/" . | relURL }}" alt="{{ with $.Params.imageAlt }}{{ . }}{{ else }}{{ $.Title }}{{ end }}" width="600" height="400" loading="eager" fetchpriority="high">
                 {{ with $.Params.imageCredit }}
                 <small class="article-hero-image-credit">{{ . }}</small>
                 {{ end }}
@@ -120,7 +120,7 @@
                 {{ with $authorData }}
                 <aside class="author-box" aria-label="{{ i18n "about_author" }}">
                     {{ with .avatar }}
-                    <img src="{{ . | relURL }}" alt="{{ $authorData.name }}" class="author-box-avatar" width="96" height="96" loading="lazy">
+                    <img src="{{ strings.TrimPrefix "/" . | relURL }}" alt="{{ $authorData.name }}" class="author-box-avatar" width="96" height="96" loading="lazy">
                     {{ else }}
                     <div class="author-box-avatar author-avatar-placeholder" aria-hidden="true">{{ slicestr .name 0 1 }}</div>
                     {{ end }}

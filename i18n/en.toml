@@ -28,7 +28,7 @@ breadcrumb_label = "Breadcrumb"
 nav_main_label = "Main navigation"
 nav_mobile_label = "Mobile navigation"
 nav_articles_label = "Article navigation"
-sitemap_url = "/en/site-map/"
+sitemap_url = "site-map/"
 
 lead_kicker = "Featured"
 lead_title = "Latest publications"

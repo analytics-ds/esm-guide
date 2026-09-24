@@ -57,7 +57,7 @@ The third line skews most comparisons. It appears on no quotation, it is measure
 2. **Cost the five lines over five years**, valuing operations at the real cost of a working day
 3. **Check reversibility** before signing: export format, ticket history, attachments
 
-The third step is the most neglected and the most expensive to fix later. It connects to the logic of the [selection criteria grid](/en/blog/choosing-an-itsm-platform/), where data migration is one of the six deciding criteria. Hosting mode also shapes how [IT inventory](/en/blog/automated-it-inventory/) is collected and how the [CMDB](/en/blog/cmdb-explained/) is fed, since agents must be able to reach the platform.
+The third step is the most neglected and the most expensive to fix later. It connects to the logic of the [selection criteria grid](/blog/choosing-an-itsm-platform/), where data migration is one of the six deciding criteria. Hosting mode also shapes how [IT inventory](/blog/automated-it-inventory/) is collected and how the [CMDB](/blog/cmdb-explained/) is fed, since agents must be able to reach the platform.
 
 ## Frequently asked questions
 

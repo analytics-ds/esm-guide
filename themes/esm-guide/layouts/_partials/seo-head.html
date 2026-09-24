@@ -31,7 +31,7 @@
 {{ $ogImage := "" }}
 {{ with .Params.image }}{{ $ogImage = . }}{{ else }}{{ with $.Site.Params.default_og_image }}{{ $ogImage = . }}{{ end }}{{ end }}
 {{ with $ogImage }}
-<meta property="og:image" content="{{ . | absURL }}">
+<meta property="og:image" content="{{ strings.TrimPrefix "/" . | absURL }}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 {{ end }}
@@ -41,7 +41,7 @@
 <meta name="twitter:title" content="{{ .Title }}">
 <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 {{ with $ogImage }}
-<meta name="twitter:image" content="{{ . | absURL }}">
+<meta name="twitter:image" content="{{ strings.TrimPrefix "/" . | absURL }}">
 {{ end }}
 
 <!-- Article meta -->
@@ -73,7 +73,7 @@
     "name": "{{ .Site.Title }}",
     "url": "{{ .Site.BaseURL }}",
     "description": "{{ .Site.Params.description }}"{{ with .Site.Params.logo }},
-    "logo": "{{ . | absURL }}"{{ end }}{{ with .Site.Params.founding_year }},
+    "logo": "{{ strings.TrimPrefix "/" . | absURL }}"{{ end }}{{ with .Site.Params.founding_year }},
     "foundingDate": "{{ . }}"{{ end }}{{ with .Site.Params.expertise }},
     "knowsAbout": [{{ range $i, $e := . }}{{ if $i }}, {{ end }}"{{ $e }}"{{ end }}]{{ end }}
 }
@@ -98,12 +98,12 @@
     "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
     "wordCount": {{ .WordCount }},
     "timeRequired": "PT{{ .ReadingTime }}M",{{ with .Params.image }}
-    "image": "{{ . | absURL }}",{{ end }}
+    "image": "{{ strings.TrimPrefix "/" . | absURL }}",{{ end }}
     {{ with $author }}
     "author": {
         "@type": "{{ if eq .type "organization" }}Organization{{ else }}Person{{ end }}",
         "name": "{{ .name }}"{{ with .avatar }},
-        "image": "{{ . | absURL }}"{{ end }}{{ with index .jobTitle $lang }},
+        "image": "{{ strings.TrimPrefix "/" . | absURL }}"{{ end }}{{ with index .jobTitle $lang }},
         "jobTitle": "{{ . }}"{{ end }}{{ with index .bio $lang }},
         "description": "{{ . }}"{{ end }}{{ with .expertise }},
         "knowsAbout": [{{ range $i, $e := . }}{{ if $i }}, {{ end }}"{{ $e }}"{{ end }}]{{ end }}{{ with .linkedinUrl }},
