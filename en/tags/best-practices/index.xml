@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Best Practices on ESM Guide</title><link>https://esm-guide.com/en/tags/best-practices/</link><description>Recent content in Best Practices on ESM Guide</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Wed, 19 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://esm-guide.com/en/tags/best-practices/index.xml" rel="self" type="application/rss+xml"/><item><title>ITIL 4: the 7 guiding principles explained</title><link>https://esm-guide.com/en/blog/itil-4-guiding-principles/</link><pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate><guid>https://esm-guide.com/en/blog/itil-4-guiding-principles/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;In short:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;ITIL 4, published in 2019, places seven guiding principles ahead of its 34 management practices.&lt;/li&gt;
+&lt;li&gt;These principles are rules of conduct, not processes to execute: they exist to arbitrate, not to run.&lt;/li&gt;
+&lt;li&gt;Three of them, start where you are, keep it simple and progress iteratively, are enough to frame most projects.&lt;/li&gt;
+&lt;li&gt;The framework cannot certify an organisation: that certification falls under the ISO/IEC 20000 standard.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="why-itil-4-starts-with-principles"&gt;Why ITIL 4 starts with principles&lt;/h2&gt;
+&lt;p&gt;Earlier ITIL versions mostly described processes. ITIL 4 reverses the order and sets out seven &lt;strong&gt;guiding principles&lt;/strong&gt;, valid in any context, before going into practice detail. The intent is explicit: avoid the mechanical application of a procedure catalogue to an organisation whose actual maturity nobody has examined.&lt;/p&gt;</description></item></channel></rss>

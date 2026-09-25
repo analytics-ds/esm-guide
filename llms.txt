@@ -1,0 +1,36 @@
+# Guide ESM
+
+> Le média indépendant de l'Enterprise Service Management : ITSM, service desk, gestion de parc et comparatifs d'outils.
+
+## À propos
+
+ESM Guide est un site éditorial indépendant consacré à l'Enterprise Service Management : pratiques ITSM, référentiel ITIL, organisation du service desk, gestion de parc informatique et comparatifs de plateformes. Les contenus sont factuels, sans parti pris d'éditeur, et s'adressent aux DSI et aux responsables de services.
+
+## Catégories
+
+- [Fondamentaux ESM](https://esm-guide.com/categories/fondamentaux-esm/) : Définitions, périmètre et bénéfices de l'Enterprise Service Management, pour poser les bases avant de choisir une méthode ou un outil.
+- [Gestion de parc et actifs](https://esm-guide.com/categories/gestion-de-parc-et-actifs/) : ITAM, CMDB, inventaire automatisé, cycle de vie du matériel et gestion des licences logicielles.
+- [ITSM et ITIL](https://esm-guide.com/categories/itsm-et-itil/) : Processus de gestion des services informatiques, référentiel ITIL 4, gestion des incidents, des problèmes et des changements.
+- [Outils et comparatifs](https://esm-guide.com/categories/outils-et-comparatifs/) : Analyses et comparatifs de plateformes ITSM et ESM, suites propriétaires comme solutions open source.
+- [Service desk et ticketing](https://esm-guide.com/categories/service-desk-et-ticketing/) : Organisation du support, niveaux de service, SLA, self-service et automatisation du traitement des demandes.
+
+## Articles
+
+- [Certifications ITIL : le schéma réel des niveaux](https://esm-guide.com/blog/certifications-itil-niveaux/) : Le modèle à cinq niveaux des certifications ITIL appartient à une version retirée. État réel du schéma ITIL 4, de la version 5 et des niveaux existants.
+- [ITSM en SaaS ou auto-hébergé : comment trancher](https://esm-guide.com/blog/itsm-saas-ou-auto-heberge/) : Le choix entre SaaS et auto-hébergement ne se joue pas sur le prix affiché mais sur cinq postes de coût et trois contraintes.
+- [Choisir une plateforme ITSM : la grille de critères](https://esm-guide.com/blog/choisir-plateforme-itsm-criteres/) : Six critères départagent réellement les plateformes ITSM. Les autres font perdre du temps en appel d'offres.
+- [Inventaire informatique automatisé : les méthodes comparées](https://esm-guide.com/blog/inventaire-informatique-automatise/) : Agent, sans agent, collecte réseau : trois méthodes d'inventaire informatique, leurs limites et le choix à faire.
+- [CMDB : à quoi elle sert et comment l'alimenter](https://esm-guide.com/blog/cmdb-definition-alimentation/) : Une CMDB n'a de valeur que si elle est à jour. Ce qu'elle doit contenir et comment l'alimenter sans la laisser dériver.
+- [Définir des SLA de support qui tiennent la route](https://esm-guide.com/blog/definir-sla-support/) : Un SLA de support mal calibré se retourne contre l'équipe. Méthode pour fixer des engagements de délai tenables.
+- [Service desk et help desk : le vocabulaire au clair](https://esm-guide.com/blog/service-desk-help-desk-difference/) : Service desk, help desk, centre de services : trois termes souvent confondus. Ce que chacun recouvre réellement.
+- [Gestion des incidents et des problèmes : ne plus confondre](https://esm-guide.com/blog/gestion-incidents-gestion-problemes/) : Incident et problème ne désignent pas la même chose en ITSM. Ce que la confusion coûte et comment séparer les deux flux.
+- [ITIL 4 : les 7 principes directeurs expliqués](https://esm-guide.com/blog/itil-4-principes-directeurs/) : Les 7 principes directeurs d'ITIL 4, ce qu'ils recouvrent et comment les appliquer sans se noyer dans le référentiel.
+- [ESM ou ITSM : quelles différences concrètes](https://esm-guide.com/blog/esm-ou-itsm-differences/) : ESM et ITSM partagent les mêmes mécanismes mais pas le même périmètre. Ce qui change vraiment en pratique.
+- [Enterprise Service Management : définition et périmètre](https://esm-guide.com/blog/enterprise-service-management-definition/) : L'Enterprise Service Management étend les pratiques ITSM à toute l'entreprise. Définition, périmètre et premiers pas concrets.
+
+## Informations techniques
+
+- Générateur : Hugo
+- Langues : fr, en
+- Sitemap : https://esm-guide.com/sitemap.xml
+- RSS : https://esm-guide.com/index.xml

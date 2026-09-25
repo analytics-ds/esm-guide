@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Root Cause on ESM Guide</title><link>https://esm-guide.com/en/tags/root-cause/</link><description>Recent content in Root Cause on ESM Guide</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 21 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://esm-guide.com/en/tags/root-cause/index.xml" rel="self" type="application/rss+xml"/><item><title>Incident and problem management: stop confusing them</title><link>https://esm-guide.com/en/blog/incident-management-vs-problem-management/</link><pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate><guid>https://esm-guide.com/en/blog/incident-management-vs-problem-management/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;In short:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;An incident is measured in time to restore, a problem in incidents avoided.&lt;/li&gt;
+&lt;li&gt;A workaround closes an incident but never closes a problem.&lt;/li&gt;
+&lt;li&gt;Grouping recurring incidents is the main entry signal for problem management.&lt;/li&gt;
+&lt;li&gt;A known error is a problem with an identified cause and a documented workaround, ahead of the permanent fix.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="two-practices-two-clocks"&gt;Two practices, two clocks&lt;/h2&gt;
+&lt;p&gt;An &lt;strong&gt;incident&lt;/strong&gt; is an unplanned interruption to a service or a reduction in its quality. The associated practice pursues one objective: restore service as quickly as possible. Restart, fail over, reassign a licence, the means hardly matter, including when they fix nothing fundamental.&lt;/p&gt;</description></item></channel></rss>

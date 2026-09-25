@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Automatisation on Guide ESM</title><link>https://esm-guide.com/tags/automatisation/</link><description>Recent content in Automatisation on Guide ESM</description><generator>Hugo</generator><language>fr-FR</language><lastBuildDate>Wed, 09 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://esm-guide.com/tags/automatisation/index.xml" rel="self" type="application/rss+xml"/><item><title>Inventaire informatique automatisé : les méthodes comparées</title><link>https://esm-guide.com/blog/inventaire-informatique-automatise/</link><pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate><guid>https://esm-guide.com/blog/inventaire-informatique-automatise/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;En bref :&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Trois méthodes de collecte coexistent : agent, sans agent, découverte réseau par balayage.&lt;/li&gt;
+&lt;li&gt;L&amp;rsquo;agent fournit l&amp;rsquo;inventaire logiciel le plus complet et fonctionne hors du réseau d&amp;rsquo;entreprise.&lt;/li&gt;
+&lt;li&gt;La découverte réseau est la seule méthode qui détecte les équipements non administrables.&lt;/li&gt;
+&lt;li&gt;Un parc réel combine presque toujours les trois, avec une fréquence de collecte différente selon le type d&amp;rsquo;équipement.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="pourquoi-linventaire-manuel-ne-tient-pas"&gt;Pourquoi l&amp;rsquo;inventaire manuel ne tient pas&lt;/h2&gt;
+&lt;p&gt;Un parc informatique bouge en permanence : postes remplacés, logiciels installés à l&amp;rsquo;initiative des utilisateurs, machines virtuelles créées puis oubliées. Un &lt;strong&gt;inventaire informatique&lt;/strong&gt; tenu à la main est faux le jour de sa publication. La question n&amp;rsquo;est donc pas de savoir s&amp;rsquo;il faut automatiser, mais avec quelle méthode.&lt;/p&gt;</description></item></channel></rss>

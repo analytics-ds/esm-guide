@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Help Desk on ESM Guide</title><link>https://esm-guide.com/en/tags/help-desk/</link><description>Recent content in Help Desk on ESM Guide</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Wed, 26 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://esm-guide.com/en/tags/help-desk/index.xml" rel="self" type="application/rss+xml"/><item><title>Service desk and help desk: the vocabulary sorted</title><link>https://esm-guide.com/en/blog/service-desk-vs-help-desk/</link><pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate><guid>https://esm-guide.com/en/blog/service-desk-vs-help-desk/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;In short:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;A help desk handles faults, a service desk handles faults and service requests.&lt;/li&gt;
+&lt;li&gt;ITIL keeps only the term service desk, defined as the single point of contact between provider and users.&lt;/li&gt;
+&lt;li&gt;The three-tier pattern, generalist then specialist then vendor, remains the reference structure.&lt;/li&gt;
+&lt;li&gt;First-line resolution rate depends directly on the quality of the knowledge base made available.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="three-terms-three-scopes"&gt;Three terms, three scopes&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;help desk&lt;/strong&gt; emerged from the need to centralise the reporting of IT faults. Its scope is corrective: a user sees a malfunction, reports it, a team fixes it.&lt;/p&gt;</description></item></channel></rss>

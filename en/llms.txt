@@ -1,0 +1,36 @@
+# ESM Guide
+
+> The independent Enterprise Service Management media: ITSM, service desk, IT asset management and tool comparisons.
+
+## About
+
+ESM Guide is an independent editorial site covering Enterprise Service Management: ITSM practices, the ITIL framework, service desk organisation, IT asset management and platform comparisons. Articles are factual, tool-agnostic and aimed at IT leaders and service managers.
+
+## Categories
+
+- [ESM Fundamentals](https://esm-guide.com/en/categories/esm-fundamentals/) : Definitions, scope and benefits of Enterprise Service Management, to set the groundwork before picking a method or a tool.
+- [IT Asset Management](https://esm-guide.com/en/categories/it-asset-management/) : ITAM, CMDB, automated inventory, hardware lifecycle and software licence management.
+- [ITSM and ITIL](https://esm-guide.com/en/categories/itsm-and-itil/) : IT service management processes, the ITIL 4 framework, incident, problem and change management.
+- [Service Desk and Ticketing](https://esm-guide.com/en/categories/service-desk-and-ticketing/) : Support organisation, service levels, SLAs, self-service and request handling automation.
+- [Tools and Comparisons](https://esm-guide.com/en/categories/tools-and-comparisons/) : Reviews and comparisons of ITSM and ESM platforms, from proprietary suites to open source solutions.
+
+## Articles
+
+- [ITIL certifications: levels and pathways](https://esm-guide.com/en/blog/itil-certification-levels/) : ITIL certifications explained: the ITIL 4 scheme, version 5, and why the widely repeated five-level model belongs to a withdrawn version.
+- [ITSM, SaaS or self-hosted: how to decide](https://esm-guide.com/en/blog/itsm-saas-or-self-hosted/) : The SaaS versus self-hosting decision is not about the sticker price but about five cost lines and three constraints.
+- [Choosing an ITSM platform: the criteria grid](https://esm-guide.com/en/blog/choosing-an-itsm-platform/) : Six criteria genuinely separate ITSM platforms. The rest waste time in a tender process.
+- [Automated IT inventory: the methods compared](https://esm-guide.com/en/blog/automated-it-inventory/) : Agent, agentless, network discovery: three IT inventory methods, their limits and how to choose between them.
+- [CMDB: what it is for and how to feed it](https://esm-guide.com/en/blog/cmdb-explained/) : A CMDB is only worth anything if it is current. What it should contain and how to feed it without letting it drift.
+- [Defining support SLAs that actually hold](https://esm-guide.com/en/blog/defining-support-slas/) : A miscalibrated support SLA turns against the team. A method for setting turnaround commitments you can keep.
+- [Service desk and help desk: the vocabulary sorted](https://esm-guide.com/en/blog/service-desk-vs-help-desk/) : Service desk, help desk, service centre: three terms often confused. What each one actually covers.
+- [Incident and problem management: stop confusing them](https://esm-guide.com/en/blog/incident-management-vs-problem-management/) : Incident and problem are not the same thing in ITSM. What the confusion costs and how to separate the two flows.
+- [ITIL 4: the 7 guiding principles explained](https://esm-guide.com/en/blog/itil-4-guiding-principles/) : The seven ITIL 4 guiding principles, what they cover and how to apply them without drowning in the framework.
+- [ESM vs ITSM: what actually changes](https://esm-guide.com/en/blog/esm-vs-itsm-differences/) : ESM and ITSM share the same mechanics but not the same scope. What genuinely changes in practice.
+- [Enterprise Service Management: definition and scope](https://esm-guide.com/en/blog/what-is-enterprise-service-management/) : Enterprise Service Management extends ITSM practices across the whole business. Definition, scope and first practical steps.
+
+## Technical information
+
+- Generator : Hugo
+- Languages : fr, en
+- Sitemap : https://esm-guide.com/sitemap.xml
+- RSS : https://esm-guide.com/en/index.xml
