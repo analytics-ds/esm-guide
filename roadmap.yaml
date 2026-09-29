@@ -23,12 +23,13 @@ articles:
     category: "ITSM et ITIL"
     volume: 260
     scheduled_date: "2026-09-29"
-    status: todo
+    status: done
     angle: "Methode et demarche, pas la liste des processus (frottement roadmap GLPI 'processus itil')."
-    published_date: null
-    published_url_fr: null
-    published_url_en: null
+    published_date: "2026-09-29"
+    published_url_fr: "https://esm-guide.com/blog/methodologie-itil/"
+    published_url_en: "https://esm-guide.com/en/blog/itil-methodology/"
     error: null
+    run_note: "mode corpus, score 70 / avg 45"
 
   - kw: "itil v4"
     category: "ITSM et ITIL"
