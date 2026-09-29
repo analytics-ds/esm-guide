@@ -1,0 +1,185 @@
+# Roadmap editoriale evergreen ESM Guide
+# Source : Clients/GLPI/GEO/roadmap-kw-esm-guide.md (releve Haloscan du 25/09/2026)
+# Semaines 40 a 47, 2 articles par semaine, 16 au total.
+# Fichier versionne sur le repo : la routine de publication le lit depuis main.
+#
+# volume et kd sont informatifs, ignores par l'agent.
+# Champs remplis par l'agent : published_date, published_url_fr, published_url_en, error, status.
+
+articles:
+  - kw: "certifications itil"
+    category: "ITSM et ITIL"
+    volume: 4230
+    scheduled_date: "2026-09-29"
+    status: done
+    angle: "Comprendre le schema de certification ITIL. Jamais un comparatif d'organismes de formation."
+    published_date: "2026-09-25"
+    published_url_fr: "https://esm-guide.com/blog/certifications-itil-niveaux/"
+    published_url_en: "https://esm-guide.com/en/blog/itil-certification-levels/"
+    error: null
+    run_note: "lancement manuel anticipe (scheduled_date 2026-09-29), mode datafer, score 75 / avg 61"
+
+  - kw: "methodologie itil"
+    category: "ITSM et ITIL"
+    volume: 260
+    scheduled_date: "2026-10-01"
+    status: todo
+    angle: "Methode et demarche, pas la liste des processus (frottement roadmap GLPI 'processus itil')."
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "itil v4"
+    category: "ITSM et ITIL"
+    volume: 1670
+    scheduled_date: "2026-10-06"
+    status: todo
+    angle: "Ce que change ITIL 4 par rapport a ITIL v3."
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "cab itil"
+    category: "ITSM et ITIL"
+    volume: 390
+    scheduled_date: "2026-10-08"
+    status: todo
+    angle: "Le comite consultatif sur les changements : role, composition, fonctionnement."
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "cobit"
+    category: "Fondamentaux ESM"
+    volume: 1660
+    scheduled_date: "2026-10-13"
+    status: todo
+    angle: "Le referentiel de gouvernance COBIT et son articulation avec ITIL."
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "iso 20000"
+    category: "Fondamentaux ESM"
+    volume: 626
+    scheduled_date: "2026-10-15"
+    status: todo
+    angle: "La norme de certification des systemes de management des services."
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "shadow it"
+    category: "Fondamentaux ESM"
+    volume: 1807
+    scheduled_date: "2026-10-20"
+    status: todo
+    angle: "Definition, risques et traitement du shadow IT."
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "gouvernance informatique"
+    category: "Fondamentaux ESM"
+    volume: 191
+    scheduled_date: "2026-10-22"
+    status: todo
+    angle: "Principes et instances de la gouvernance du SI."
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "plan de continuite d'activite"
+    category: "Fondamentaux ESM"
+    volume: 2043
+    scheduled_date: "2026-10-27"
+    status: todo
+    angle: "Construire un PCA : perimetre, scenarios, tests."
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "pra informatique"
+    category: "Fondamentaux ESM"
+    volume: 320
+    scheduled_date: "2026-10-29"
+    status: todo
+    angle: "Plan de reprise d'activite : RTO, RPO, articulation avec le PCA."
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "techniciens helpdesk"
+    category: "Service desk et ticketing"
+    volume: 1097
+    scheduled_date: "2026-11-03"
+    status: todo
+    angle: "Angle metier, parcours et niveaux. Pas l'organisation du support (frottement roadmap GLPI)."
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "incident manager itil"
+    category: "Service desk et ticketing"
+    volume: 210
+    scheduled_date: "2026-11-05"
+    status: todo
+    angle: "Role et fiche de poste, pas le processus (frottement roadmap GLPI 'itil incident')."
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "centre de services partages"
+    category: "Fondamentaux ESM"
+    volume: 230
+    scheduled_date: "2026-11-10"
+    status: todo
+    angle: "Le CSP comme modele d'organisation des fonctions support."
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "catalogue de services informatiques"
+    category: "Fondamentaux ESM"
+    volume: 164
+    scheduled_date: "2026-11-12"
+    status: todo
+    angle: "Construire et tenir un catalogue de services."
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "consultant itsm"
+    category: "Fondamentaux ESM"
+    volume: 160
+    scheduled_date: "2026-11-17"
+    status: todo
+    angle: "Le metier de consultant ITSM : missions, competences, parcours."
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "ola sla"
+    category: "Service desk et ticketing"
+    volume: 110
+    scheduled_date: "2026-11-19"
+    status: todo
+    angle: "OLA, SLA et contrat de sous-traitance : l'articulation des trois engagements. Ne PAS redefinir le SLA (article publie 'Definir des SLA de support qui tiennent la route')."
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
