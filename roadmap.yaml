@@ -22,7 +22,7 @@ articles:
   - kw: "methodologie itil"
     category: "ITSM et ITIL"
     volume: 260
-    scheduled_date: "2026-10-01"
+    scheduled_date: "2026-09-29"
     status: todo
     angle: "Methode et demarche, pas la liste des processus (frottement roadmap GLPI 'processus itil')."
     published_date: null
