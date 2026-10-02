@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Metrics on ESM Guide</title><link>https://esm-guide.com/en/tags/metrics/</link><description>Recent content in Metrics on ESM Guide</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 28 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://esm-guide.com/en/tags/metrics/index.xml" rel="self" type="application/rss+xml"/><item><title>Defining support SLAs that actually hold</title><link>https://esm-guide.com/en/blog/defining-support-slas/</link><pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate><guid>https://esm-guide.com/en/blog/defining-support-slas/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;In short:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;An SLA rests on a priority matrix crossing urgency and impact, never on urgency as declared by the requester.&lt;/li&gt;
+&lt;li&gt;Two distinct commitments are required: response time and restoration time.&lt;/li&gt;
+&lt;li&gt;Calibration is done on the median actually observed, not on a theoretical target.&lt;/li&gt;
+&lt;li&gt;Without pausing the clock while waiting on the requester, the metric becomes unfair and stops being used.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="what-an-sla-actually-commits-to"&gt;What an SLA actually commits to&lt;/h2&gt;
+&lt;p&gt;A &lt;strong&gt;service level agreement&lt;/strong&gt; is a commitment made to users on measurable turnaround times. It does not describe an ambition, it describes an enforceable promise. This is why an SLA set above the team&amp;rsquo;s real capacity produces the opposite of the intended effect: breaches become the norm, and nobody looks at the indicator any more.&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fondamentaux ESM on Guide ESM</title><link>https://esm-guide.com/categories/fondamentaux-esm/</link><description>Recent content in Fondamentaux ESM on Guide ESM</description><generator>Hugo</generator><language>fr-FR</language><lastBuildDate>Fri, 14 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://esm-guide.com/categories/fondamentaux-esm/index.xml" rel="self" type="application/rss+xml"/><item><title>ESM ou ITSM : quelles différences concrètes</title><link>https://esm-guide.com/blog/esm-ou-itsm-differences/</link><pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate><guid>https://esm-guide.com/blog/esm-ou-itsm-differences/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;En bref :&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;ITSM et ESM reposent sur les mêmes objets : catalogue de services, ticket, priorité, engagement de délai, base de connaissances.&lt;/li&gt;
+&lt;li&gt;La seule différence structurante est le périmètre : la DSI pour l&amp;rsquo;ITSM, l&amp;rsquo;ensemble des fonctions support pour l&amp;rsquo;ESM.&lt;/li&gt;
+&lt;li&gt;Le passage de l&amp;rsquo;un à l&amp;rsquo;autre est un chantier de gouvernance, pas un chantier technique.&lt;/li&gt;
+&lt;li&gt;Trois capacités techniques conditionnent la bascule : catalogues multiples, files d&amp;rsquo;affectation multiples, cloisonnement des droits.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="deux-sigles-un-seul-mécanisme"&gt;Deux sigles, un seul mécanisme&lt;/h2&gt;
+&lt;p&gt;L&amp;rsquo;&lt;strong&gt;ITSM&lt;/strong&gt; organise les services rendus par la direction informatique. L&amp;rsquo;&lt;strong&gt;ESM&lt;/strong&gt; applique le même raisonnement à toutes les fonctions qui rendent un service interne. Les briques sont identiques : on décrit un service, on ouvre un canal pour le demander, on affecte la demande à quelqu&amp;rsquo;un, on s&amp;rsquo;engage sur un délai, on mesure.&lt;/p&gt;</description></item><item><title>Enterprise Service Management : définition et périmètre</title><link>https://esm-guide.com/blog/enterprise-service-management-definition/</link><pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate><guid>https://esm-guide.com/blog/enterprise-service-management-definition/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;En bref :&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;L&amp;rsquo;ESM applique aux directions non informatiques les pratiques de gestion des services nées dans l&amp;rsquo;IT : catalogue, portail de demandes, workflows et mesure des délais.&lt;/li&gt;
+&lt;li&gt;Les quatre fonctions le plus souvent concernées sont les ressources humaines, les services généraux, la finance et le juridique.&lt;/li&gt;
+&lt;li&gt;Une démarche ESM n&amp;rsquo;est pas un achat d&amp;rsquo;outil : elle commence par la formalisation d&amp;rsquo;un catalogue de services et de leurs engagements de délai.&lt;/li&gt;
+&lt;li&gt;Le référentiel ITIL 4 décrit 34 pratiques de management, dont une large majorité s&amp;rsquo;applique telle quelle en dehors du périmètre informatique.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="ce-que-recouvre-lenterprise-service-management"&gt;Ce que recouvre l&amp;rsquo;Enterprise Service Management&lt;/h2&gt;
+&lt;p&gt;L&amp;rsquo;&lt;strong&gt;Enterprise Service Management&lt;/strong&gt; désigne l&amp;rsquo;application, à l&amp;rsquo;échelle de toute l&amp;rsquo;entreprise, des principes de gestion des services formalisés dans l&amp;rsquo;informatique depuis les années 1990. Le raisonnement est simple : une demande de badge adressée aux services généraux et une demande de réinitialisation de mot de passe adressée à la DSI posent exactement le même problème d&amp;rsquo;organisation. Qui la reçoit, sous quel délai, selon quelle procédure, et comment le demandeur suit-elle son avancement.&lt;/p&gt;</description></item></channel></rss>

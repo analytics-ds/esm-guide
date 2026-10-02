@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cause Racine on Guide ESM</title><link>https://esm-guide.com/tags/cause-racine/</link><description>Recent content in Cause Racine on Guide ESM</description><generator>Hugo</generator><language>fr-FR</language><lastBuildDate>Fri, 21 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://esm-guide.com/tags/cause-racine/index.xml" rel="self" type="application/rss+xml"/><item><title>Gestion des incidents et des problèmes : ne plus confondre</title><link>https://esm-guide.com/blog/gestion-incidents-gestion-problemes/</link><pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate><guid>https://esm-guide.com/blog/gestion-incidents-gestion-problemes/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;En bref :&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;L&amp;rsquo;incident se mesure en délai de rétablissement, le problème se mesure en incidents évités.&lt;/li&gt;
+&lt;li&gt;Un contournement clôt un incident mais ne clôt jamais un problème.&lt;/li&gt;
+&lt;li&gt;Le regroupement d&amp;rsquo;incidents récurrents est le principal signal d&amp;rsquo;entrée de la gestion des problèmes.&lt;/li&gt;
+&lt;li&gt;Une erreur connue est un problème dont la cause est identifiée et le contournement documenté, avant correction définitive.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="deux-pratiques-deux-horloges"&gt;Deux pratiques, deux horloges&lt;/h2&gt;
+&lt;p&gt;Un &lt;strong&gt;incident&lt;/strong&gt; est une interruption non planifiée d&amp;rsquo;un service ou une dégradation de sa qualité. La pratique associée poursuit un seul objectif : rétablir le service au plus vite. Redémarrer, basculer sur un serveur de secours, réattribuer une licence, peu importe le moyen, y compris s&amp;rsquo;il ne règle rien sur le fond.&lt;/p&gt;</description></item></channel></rss>
