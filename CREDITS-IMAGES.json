@@ -1,0 +1,150 @@
+{
+  "fondamentaux-esm": {
+    "requete": "office workspace desk laptop",
+    "titre": "Office Work",
+    "licence": "CC0",
+    "auteur": "energepic.com",
+    "source": "stocksnap",
+    "page": "https://stocksnap.io/photo/office-work-42H3JH8QI5"
+  },
+  "itsm-et-itil": {
+    "requete": "server room data center",
+    "titre": "Free computer server room image",
+    "licence": "CC0",
+    "auteur": null,
+    "source": "rawpixel",
+    "page": "https://www.rawpixel.com/image/5912401/image-public-domain-black-technology"
+  },
+  "gestion-de-parc-et-actifs": {
+    "requete": "computer hardware components",
+    "titre": "Sempron 64 2600+",
+    "licence": "CC0",
+    "auteur": "Henrique Vicente",
+    "source": "flickr",
+    "page": "https://www.flickr.com/photos/51314820@N00/132223879"
+  },
+  "outils-et-comparatifs": {
+    "requete": "monitor analytics",
+    "titre": "Real-time bus tracking control room in Lebanon",
+    "licence": "CC0",
+    "auteur": "UrusHyby",
+    "source": "wikimedia",
+    "page": "https://commons.wikimedia.org/w/index.php?curid=175250226"
+  },
+  "service-desk-et-ticketing": {
+    "requete": "headset computer desk",
+    "titre": "Live Audio Streaming Second Life",
+    "licence": "CC0",
+    "auteur": "cogdogblog",
+    "source": "flickr",
+    "page": "https://www.flickr.com/photos/37996646802@N01/4389124180"
+  },
+  "_articles": {
+    "enterprise-service-management-definition": {
+      "requete": "business people working office",
+      "titre": "Team Meeting",
+      "licence": "CC0",
+      "auteur": "Startup Stock Photos",
+      "source": "stocksnap",
+      "page": "https://stocksnap.io/photo/team-meeting-JBW2PXDOL6"
+    },
+    "esm-ou-itsm-differences": {
+      "requete": "office corridor architecture",
+      "titre": "Ljubljana.. Original public domain image",
+      "licence": "CC0",
+      "auteur": null,
+      "source": "rawpixel",
+      "page": "https://www.rawpixel.com/image/3304388/free-photo-image-architecture-asphalt-automobile"
+    },
+    "service-desk-help-desk-difference": {
+      "requete": "reception desk office",
+      "titre": null,
+      "licence": "CC0",
+      "auteur": null,
+      "source": "rawpixel",
+      "page": "https://www.rawpixel.com/image/5940529/free-public-domain-cc0-photo"
+    },
+    "definir-sla-support": {
+      "requete": "clock office wall",
+      "titre": "Digital Clock",
+      "licence": "CC0",
+      "auteur": "Burst",
+      "source": "stocksnap",
+      "page": "https://stocksnap.io/photo/digital-clock-0NV2FAVPAX"
+    },
+    "cmdb-definition-alimentation": {
+      "requete": "server cables network",
+      "titre": "Network Cable",
+      "licence": "CC0",
+      "auteur": "Lenharth Systems",
+      "source": "stocksnap",
+      "page": "https://stocksnap.io/photo/network-cable-QVKM5X26VN"
+    },
+    "itil-4-principes-directeurs": {
+      "requete": "notebook writing desk",
+      "titre": "Writing Drawing",
+      "licence": "CC0",
+      "auteur": "Green Chameleon",
+      "source": "stocksnap",
+      "page": "https://stocksnap.io/photo/writing-drawing-8Y0EDX4VP9"
+    },
+    "gestion-incidents-gestion-problemes": {
+      "requete": "data center technician working",
+      "titre": "North Central Telephone Cooperative Corporation",
+      "licence": "CC0",
+      "auteur": "U.S. Department of Agriculture",
+      "source": "rawpixel",
+      "page": "https://www.rawpixel.com/image/3259549/free-photo-image-server-electronics-computer"
+    },
+    "inventaire-informatique-automatise": {
+      "requete": "warehouse storage shelves",
+      "titre": "Binders boxes shelves large archive",
+      "licence": "CC0",
+      "auteur": null,
+      "source": "rawpixel",
+      "page": "https://www.rawpixel.com/image/3298148/free-photo-image-warehouse-aisle-book"
+    },
+    "choisir-plateforme-itsm-criteres": {
+      "requete": "computer monitors office workspace",
+      "titre": "Home Office",
+      "licence": "CC0",
+      "auteur": "Design by Matt",
+      "source": "stocksnap",
+      "page": "https://stocksnap.io/photo/home-office-QUU0AQABSN"
+    },
+    "itsm-saas-ou-auto-heberge": {
+      "requete": "source code screen programming",
+      "titre": "Computer coding on a screen",
+      "licence": "CC0",
+      "auteur": "Markus Spiske",
+      "source": "rawpixel",
+      "page": "https://www.rawpixel.com/image/432212/free-photo-image-code-binary-java"
+    }
+  },
+  "_home_hero": {
+    "requete": "woman man working desk office",
+    "titre": "Designers Discuss",
+    "licence": "CC0",
+    "auteur": "Christina Morillo",
+    "source": "stocksnap",
+    "page": "https://stocksnap.io/photo/designers-discuss-0IDDBGKWDX"
+  },
+  "certifications-itil-niveaux": {
+    "requete": "professional certification study",
+    "titre": "Students focused on laptops and notes in a bright classroom setting",
+    "licence": "Pexels License",
+    "auteur": "Mikhail Nilov",
+    "source": "pexels",
+    "page": "https://www.pexels.com/photo/a-pair-of-students-looking-at-a-man-i-front-using-a-laptop-9159076/",
+    "note": "Licence Pexels : usage commercial libre, aucune attribution requise. Openverse ne remontait rien de pertinent en cc0,pdm sur ce sujet."
+  },
+  "meilleures-solutions-itsm": {
+    "requete": "it service desk team office",
+    "titre": "Two call center employees working together with headsets in a modern office setting.",
+    "licence": "Pexels License",
+    "auteur": "Yan Krukau",
+    "source": "pexels",
+    "page": "https://www.pexels.com/photo/8867472/",
+    "note": "Licence Pexels : usage commercial libre, aucune attribution requise. Recadre 3:2, desature a 62 % et bascule vers le bleu."
+  }
+}
